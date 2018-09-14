@@ -9,7 +9,12 @@ public class Song
 {
     // instance variables - replace the example below with your own
     private int rating;
+    private String title;
+    public Song ()
+    {
+        rating = 0;
+     title="House of the rising sun";
 
     
     }
-
+}
