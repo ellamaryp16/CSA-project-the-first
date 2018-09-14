@@ -9,6 +9,11 @@ public class medialab
 {
       public static void main ()
   {
-    System.out.println("Welcome to your media library.");
-    }
+    System.out.println("Welcome to your media library."); 
+      Song Song1 = new Song();
+      System.out.println(Song1);
+
 }
+ 
+}
+  
