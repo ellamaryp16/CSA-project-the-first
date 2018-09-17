@@ -13,7 +13,7 @@ public class Song
     public Song ()
     {
         rating = 0;
-     title="House of the rising sun";
+     title="";
 
     
     }
@@ -21,7 +21,9 @@ public class Song
             return title;
 
 }}
- 
+  public void setTitle(String t) {
+     title = t;  
+    }
 
 
 
