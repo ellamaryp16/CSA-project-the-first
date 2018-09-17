@@ -9,7 +9,7 @@ public class Book
 {    private int rating;
     private String title;
             public Book(){
-                rating = 0;
+                rating = 10;
                 title = "Wee Free Men";
                 
       

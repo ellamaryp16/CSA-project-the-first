@@ -12,7 +12,7 @@ public class Song
     private String title;
         public Song ()
         {
-            rating = 0;
+            rating = 10;
             title="House of the Rising Sun";
 
     

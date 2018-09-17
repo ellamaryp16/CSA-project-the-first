@@ -10,7 +10,7 @@ public class Movie
     private int rating;
     private String title;
             public Movie(){
-                rating = 0;
+                rating = 10;
                 title = "Ponyo";
                 
       
