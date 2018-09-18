@@ -13,7 +13,7 @@ public class medialab
     
       Song Song1 = new Song();
       System.out.println(Song1);
-      Song1.setTitle("house of the rising sun");
+      Song1.setTitle("House of the Rising Sun");
       System.out.println(Song1.getTitle());
       
       Movie Movie1 = new Movie();
