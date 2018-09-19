@@ -9,9 +9,11 @@ public class Movie
 {
     private int rating;
     private String title;
+    private double price;
             public Movie(){
                 rating = 10;
                 title = "Ponyo";
+                price = 11.9;
                 
       
                 }
@@ -19,8 +21,9 @@ public class Movie
     {  return title;          
 }
 public void setTitle(String t) {
-title = t;
+    title = t;
     }
+   
 }
 
 
