@@ -10,6 +10,7 @@ public class Movie
     private int rating;
     private String title;
     private double price;
+    private boolean favorite;
             public Movie(){
                 rating = 10;
                 title = "Ponyo";
@@ -29,6 +30,15 @@ public void setTitle(String t) {
    public void setprice(double j) {
        price = j;
     }
+    public int getRating(){
+        return rating;
+    }
+    public void setRating (int r) {
+        rating = r;}
+    public void addtoFavorites(){
+        favorite = true;
+}
+
 }
 
 

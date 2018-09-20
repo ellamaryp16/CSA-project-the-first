@@ -27,4 +27,11 @@ public class Book
     public void setprice (double j) {
         price = j;
     }
-}
+    public int getRating(){
+        return rating;
+    }
+    public void setRating (int r) {
+        rating = r;}
+} 
+
+

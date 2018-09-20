@@ -11,6 +11,7 @@ public class Song
   private int rating;
   private double price;
   private String title;
+  private boolean favorite;
    public Song ()
    {
      rating = 10;
@@ -29,9 +30,25 @@ public class Song
    public void setprice(double j) {
      price = j;
    }
-    
+    public int getRating(){
+        return rating;
+    }
+    public void setRating (int r) {
+        rating = r;}
+    public void addtoFavorites(){
+        favorite = true;
 }
- 
+public Song(String title, double price){
+    this.title = title;
+    this.price = price;
+}
+public Song(String title, double price, int rating){
+    this.title = "bulletproof heart";
+    this.price = 1.0;
+    this.rating = 9;
+}
+
+}
 
 
 
