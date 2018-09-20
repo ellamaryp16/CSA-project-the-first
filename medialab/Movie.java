@@ -23,7 +23,12 @@ public class Movie
 public void setTitle(String t) {
     title = t;
     }
-   
+    public double getprice () {
+        return price;
+    }
+   public void setprice(double j) {
+       price = j;
+    }
 }
 
 

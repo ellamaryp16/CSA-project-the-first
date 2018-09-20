@@ -22,12 +22,15 @@ public class medialab
       System.out.println(Movie1);
       Movie1.setTitle("Ponyo");
       System.out.println(Movie1.getTitle());
+      Movie1.setprice(11.9);
+      System.out.println(Movie1.getprice());
       
       Book Book1 = new Book();
       System.out.println(Book1);
-      Movie1.setTitle("Wee Free Men");
+      Book1.setTitle("Wee Free Men");
       System.out.println(Book1.getTitle());
-      
+      Book1.setprice(5.8);
+      System.out.println(Song1.getprice());
       
       
       
