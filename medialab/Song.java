@@ -12,6 +12,9 @@ public class Song
   private double price;
   private String title;
   private boolean favorite;
+  private double totalCost;
+  private int numSongs;
+  
    public Song ()
    {
      rating = 10;
@@ -40,12 +43,12 @@ public class Song
 }
 public Song(String title, double price){
     this.title = "Dance. Dance.";
-    this.price = price;
+    this.price = 2.33;
 }
 public Song(String title, double price, int rating){
     this.title = "bulletproof heart";
     this.price = 1.0;
-    this.rating = 9;
+    this.rating = 9; 
 }
 
 }
