@@ -39,7 +39,7 @@ public class Song
         favorite = true;
 }
 public Song(String title, double price){
-    this.title = title;
+    this.title = "Dance. Dance.";
     this.price = price;
 }
 public Song(String title, double price, int rating){
