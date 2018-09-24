@@ -17,6 +17,7 @@ public class medialab
       System.out.println(Song1.getTitle());
       Song1.setprice(1.0);
       System.out.println(Song1.getprice());
+      System.out.println(totalCost);
       
       Movie Movie1 = new Movie();
       System.out.println(Movie1);

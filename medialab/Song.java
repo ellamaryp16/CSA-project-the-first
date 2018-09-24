@@ -8,13 +8,13 @@
 public class Song
 {
     // instance variables - replace the example below with your own
- private int rating;
-  private double price;
-  private String title;
-  private boolean favorite;
-  private double totalCost = 1.0 + 2.33 + 1.0;
-  private int numSongs = 1 + 1 + 1; 
- private double totalRating = (10 + 9 + 9)/3;
+private int rating;
+private double price;
+private String title;
+private boolean favorite;
+public double totalCost = 1.0 + 2.33 + 1.0;
+public int numSongs = 1 + 1 + 1; 
+public double totalRating = (10 + 9 + 9)/3;
    public Song ()
    {
      rating = 10;
@@ -33,10 +33,10 @@ public class Song
    public void setprice(double j) {
      price = j;
    }
-    public int getRating(){
+   public int getRating(){
         return rating;
     }
-    public void setRating (int r) {
+   public void setRating (int r) {
         rating = r;}
     public void addtoFavorites(){
         favorite = true;
