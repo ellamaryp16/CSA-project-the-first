@@ -14,7 +14,7 @@ public class Song
   private boolean favorite;
   private double totalCost = 1.0 + 2.33 + 1.0;
   private int numSongs = 1 + 1 + 1; 
- 
+ private double totalRating = (10 + 9 + 9)/3;
    public Song ()
    {
      rating = 10;
@@ -44,6 +44,7 @@ public class Song
 public Song(String title, double price){
     this.title = "Dance. Dance.";
     this.price = 2.33;
+    this.rating = 9;
 }
 public Song(String title, double price, int rating){
     this.title = "bulletproof heart";
