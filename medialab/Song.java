@@ -8,12 +8,12 @@
 public class Song
 {
     // instance variables - replace the example below with your own
-  private int rating;
+ private int rating;
   private double price;
   private String title;
   private boolean favorite;
   private double totalCost;
-  private int numSongs;
+  private int numSongs; 
   
    public Song ()
    {
