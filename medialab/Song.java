@@ -12,9 +12,9 @@ public class Song
   private double price;
   private String title;
   private boolean favorite;
-  private double totalCost;
-  private int numSongs; 
-  
+  private double totalCost = 1.0 + 2.33 + 1.0;
+  private int numSongs = 1 + 1 + 1; 
+ 
    public Song ()
    {
      rating = 10;
@@ -50,7 +50,7 @@ public Song(String title, double price, int rating){
     this.price = 1.0;
     this.rating = 9; 
 }
-
+    
 }
 
 
