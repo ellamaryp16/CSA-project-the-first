@@ -5,23 +5,23 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Movie
+ public class Movie
 {
-    private int rating;
-    private String title;
-    private double price;
-    private boolean favorite;
-            public Movie(){
-                rating = 10;
-                title = "Ponyo";
-                price = 11.9;
-                
-      
-                }
-    public String getTitle() 
-    {  return title;          
-}
-public void setTitle(String t) {
+ private int rating;
+ private String title;
+ private double price;
+ private boolean favorite;
+ private int duration;
+  public Movie()
+  {
+    rating = 10;
+    title = "Ponyo";
+    price = 11.9;
+  }
+  public String getTitle() 
+  {  return title;          
+  }
+  public void setTitle(String t) {
     title = t;
     }
     public double getprice () {
