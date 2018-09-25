@@ -12,9 +12,9 @@ private int rating;
 private double price;
 private String title;
 private boolean favorite;
-public double totalCost = 1.0 + 2.33 + 1.0;
-public int numSongs = 1 + 1 + 1; 
-public double totalRating = (10 + 9 + 9)/3;
+
+ 
+
    public Song ()
    {
      rating = 10;
