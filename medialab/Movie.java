@@ -11,7 +11,8 @@
  private String title;
  private double price;
  private boolean favorite;
- private int duration;
+ private int duration = 76578989 % 60;
+ private int time = duration % 60; 
   public Movie()
   {
     rating = 10;
@@ -38,15 +39,20 @@
     public void addtoFavorites(){
         favorite = true;
 }
-
+  public int getDuration () {
+      return duration;
+      
 }
-
-
-
-
-
-
-
+public void setDuration (int d) {
+    duration = d;
+}
+public int getTime () {
+    return time;
+}
+public void setTime (int t) {
+   time = t; 
+}
+}
 
 
 
