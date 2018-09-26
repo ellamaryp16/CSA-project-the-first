@@ -32,6 +32,7 @@ public class medialab
       System.out.println(Movie1.getTitle());
       Movie1.setprice(11.9);
       System.out.println(Movie1.getprice());
+      System.out.println(Movie1.displayDuration());
       
       Book Book1 = new Book();
       System.out.println(Book1);

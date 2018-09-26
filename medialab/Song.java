@@ -12,9 +12,6 @@ private int rating;
 private double price;
 private String title;
 private boolean favorite;
-
- 
-
    public Song ()
    {
      rating = 10;
