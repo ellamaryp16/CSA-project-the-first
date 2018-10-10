@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-abstract class medialab
+class medialab
 {
  private static double avgRating = (10 + 9 + 9)/3;
  private static int numSongs = 1 + 1 + 1;

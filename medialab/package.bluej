@@ -17,15 +17,9 @@ objectbench.width=1037
 package.divider.horizontal=0.6
 package.divider.vertical=0.676
 package.editor.height=331
-<<<<<<< HEAD
 package.editor.width=947
-package.editor.x=54
-package.editor.y=379
-=======
-package.editor.width=670
-package.editor.x=690
-package.editor.y=432
->>>>>>> 25c9f0da69988fb11a5e24423acdfb8d42249c51
+package.editor.x=860
+package.editor.y=279
 package.frame.height=600
 package.frame.width=1077
 package.numDependencies=3
@@ -69,7 +63,7 @@ target4.y=160
 target5.height=50
 target5.name=medialab
 target5.showInterface=false
-target5.type=AbstractTarget
+target5.type=ClassTarget
 target5.width=80
 target5.x=70
 target5.y=10
