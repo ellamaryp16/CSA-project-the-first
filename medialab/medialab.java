@@ -5,13 +5,13 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class medialab
+abstract class medialab
 {
  private static double avgRating = (10 + 9 + 9)/3;
  private static int numSongs = 1 + 1 + 1;
  private static double totalCost = 1.0 + 2.33 + 1.0;
  
-      public static void main ()
+      static void main ()
  {
   System.out.println("Welcome to your media library."); 
     
