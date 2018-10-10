@@ -1,4 +1,5 @@
 
+
 /**
  * Write a description of class Movie here.
  *
@@ -12,7 +13,7 @@
  private double price;
  private boolean favorite;
  private int duration = 100;
- private int time; 
+ private int time;   
   public Movie()
   {
     rating = 10;
