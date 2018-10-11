@@ -6,7 +6,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
- public class Movie
+ public class Movie extends Media
 {
  private int rating;
  private String title;

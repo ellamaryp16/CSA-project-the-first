@@ -12,29 +12,32 @@ public abstract class Media
     private double price;
     private String title;
     private boolean favorite;
+  
    public Media ()
    {
      rating = 10;
      title="House of the Rising Sun";
      price = 1.0;
+     rating = 10;
+     title = "Wee Free Men";
+     price = 5.8;
    }   
    public String getTitle() {
      return title;     
    }
-        public void setTitle(String t) {
-     title = t;
-   }
+
    public double getprice() {
      return price;
    }
-   public void setprice(double j) {
-     price = j;
-   }
+
    public int getRating(){
         return rating;
     }
-   public void setRating (int r) {
-        rating = r;}
+   public void setsong (int r, double j,String t) {
+        rating = r;
+        price = j;
+        title = t;
+    }
     public void addtoFavorites(){
         favorite = true;
     }
@@ -48,6 +51,26 @@ public abstract class Media
     this.price = 1.0;
     this.rating = 9; 
 }
+ 
+   public String getBookTitle() 
+   {  
+     return title;
+     
+   }
+   public double getBookPrice ()
+   {
+     return price;
+   }
+   public int getBookRating()
+   {
+     return rating;
+   }
+   public void setBook(String t,double j, int r) 
+   {
+     title = t;
+     price = j;
+     rating = r;
+   }
 }
 
 
