@@ -30,9 +30,10 @@ public abstract class Media
    this.price = 2.33;
    this.rating = 9;
   }   
-  public String getTitle() 
+  public String getSong() 
   {
-   return title;     
+   return title;
+   
   }
   public double getprice() 
   {
@@ -42,19 +43,7 @@ public abstract class Media
   {
    return rating;
   }
-  public void setsong (int r, double j,String t, String a, double b, int c) 
-  { 
-   rating = r;
-   price = j;
-   title = t;
-   title = a;
-   price = b;
-   rating = c;
-  }
-  public void addtoFavorites()
-  {
-   favorite = true;
-  }
+  
   public String getBookTitle() 
   {  
    return title; 
@@ -67,12 +56,7 @@ public abstract class Media
   {
    return rating;
   }
-  public void setBook(String a,double b, int c) 
-  {
-   title = a;
-   price = b;
-   rating = c;
-  }
+ 
  private int time;   
   public String getMovieTitle() 
   {  
@@ -86,11 +70,11 @@ public abstract class Media
   {
    return rating;
   }
-  public void setMovie(String t, double j,int r,int d) 
-  {
-   title = t;
-   price = j;
+ public void setMedia (int r, double j,String t) 
+  { 
    rating = r;
+   price = j;
+   title = t;
   }
 }
 
