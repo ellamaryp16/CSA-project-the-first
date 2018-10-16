@@ -14,59 +14,19 @@ public abstract class Media
  private boolean favorite;
   public Media ()
   {
-   this.rating = 10;
-   this.title="House of the Rising Sun";
-   this.price = 1.0;
-   this.rating = 10;
-   this.title = "Wee Free Men";
-   this.price = 5.8;
-   this.rating = 10;
-   this.title = "Ponyo";
-   this.price = 11.9;
-   this.title = "bulletproof heart";
-   this.price = 1.0;
-   this.rating = 9;
-   this.title = "Dance. Dance.";
-   this.price = 2.33;
-   this.rating = 9;
+   this.rating = 0;
+   this.title="Untitled";
+   this.price = 0;
   }   
-  public String getSong() 
-  {
-   return title;
-   
+  public String getTitle() 
+  {  
+   return title; 
   }
-  public double getprice() 
+  public double getPrice()
   {
    return price;
   }
   public int getRating()
-  {
-   return rating;
-  }
-  
-  public String getBookTitle() 
-  {  
-   return title; 
-  }
-  public double getBookPrice ()
-  {
-   return price;
-  }
-  public int getBookRating()
-  {
-   return rating;
-  }
- 
- private int time;   
-  public String getMovieTitle() 
-  {  
-   return title;          
-  }
-  public double getMovieprice ()
-  {
-   return price;
-  }
-  public int getMovieRating()
   {
    return rating;
   }
@@ -76,6 +36,7 @@ public abstract class Media
    price = j;
    title = t;
   }
+  
 }
 
 

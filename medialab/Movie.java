@@ -20,34 +20,6 @@
     title = "Ponyo";
     price = 11.9;
   }
-  public String getTitle() 
-  {  
-    return title;          
-  }
-  public void setTitle(String t) 
-  {
-    title = t;
-  }
-  public double getprice ()
-  {
-    return price;
-  }
-  public void setprice(double j) 
-  {
-    price = j;
-  }
-  public int getRating()
-  {
-    return rating;
-  }
-  public void setRating (int r)
-  {
-    rating = r;
-  }
-  public void addtoFavorites()
-  {
-    favorite = true;
-  }
   
   //duration 1.1.3 pt 4
   public int getDuration () 

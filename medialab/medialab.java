@@ -14,36 +14,31 @@ class medialab
       static void main ()
  {
   System.out.println("Welcome to your media library."); 
-    
+  //Song
   Song Song1 = new Song();
   System.out.println(Song1);
-  Song1.setTitle("House of the Rising Sun");
+  Song1.setMedia("House of the Rising Sun");
   System.out.println(Song1.getTitle());
-  Song1.setprice(1.0);
-  System.out.println(Song1.getprice());
+  Song1.setMedia(1.0);
+  System.out.println(Song1.getPrice());
   System.out.println(avgRating);
   System.out.println(numSongs);
   System.out.println(totalCost);
-      
-      
+  //Movie    
   Movie Movie1 = new Movie();
-      System.out.println(Movie1);
-      Movie1.setTitle("Ponyo");
-      System.out.println(Movie1.getTitle());
-      Movie1.setprice(11.9);
-      System.out.println(Movie1.getprice());
-      System.out.println(Movie1.displayDuration());
-      
-      Book Book1 = new Book();
-      System.out.println(Book1);
-      Book1.setTitle("Wee Free Men");
-      System.out.println(Book1.getTitle());
-      Book1.setprice(5.8);
-      System.out.println(Song1.getprice());
-      
-      
-      
-      
+  System.out.println(Movie1);
+  Movie1.setMedia("Ponyo");
+  System.out.println(Movie1.getTitle());
+  Movie1.setMedia(11.9);
+  System.out.println(Movie1.getPrice());
+  System.out.println(Movie1.displayDuration());
+  //Book    
+  Book Book1 = new Book();
+  System.out.println(Book1);
+  Book1.setMedia("Wee Free Men");
+  System.out.println(Book1.getTitle());
+  Book1.setMedia(5.8);
+  System.out.println(Song1.getPrice());   
 }
  
 }
