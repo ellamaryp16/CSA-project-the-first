@@ -30,13 +30,18 @@ public abstract class Media
   {
    return rating;
   }
- public void setMedia (int r, double j,String t) 
+ public void setPrice( double j) 
+  { 
+   price = j;
+  }
+   public void setRating (int r) 
   { 
    rating = r;
-   price = j;
+}
+ public void setTitle (String t) 
+  { 
    title = t;
   }
-  
 }
 
 

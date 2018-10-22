@@ -17,9 +17,9 @@ class medialab
   //Song
   Song Song1 = new Song();
   System.out.println(Song1);
-  Song1.setMedia("House of the Rising Sun");
+  Song1.setTitle("House of the Rising Sun");
   System.out.println(Song1.getTitle());
-  Song1.setMedia(1.0);
+  Song1.setPrice(1.0);
   System.out.println(Song1.getPrice());
   System.out.println(avgRating);
   System.out.println(numSongs);
@@ -27,17 +27,17 @@ class medialab
   //Movie    
   Movie Movie1 = new Movie();
   System.out.println(Movie1);
-  Movie1.setMedia("Ponyo");
+  Movie1.setTitle("Ponyo");
   System.out.println(Movie1.getTitle());
-  Movie1.setMedia(11.9);
+  Movie1.setPrice(11.9);
   System.out.println(Movie1.getPrice());
   System.out.println(Movie1.displayDuration());
   //Book    
   Book Book1 = new Book();
   System.out.println(Book1);
-  Book1.setMedia("Wee Free Men");
+  Book1.setTitle("Wee Free Men");
   System.out.println(Book1.getTitle());
-  Book1.setMedia(5.8);
+  Book1.setPrice(5.8);
   System.out.println(Song1.getPrice());   
 }
  
