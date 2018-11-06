@@ -38,7 +38,12 @@ class medialab
   Book1.setTitle("Wee Free Men");
   System.out.println(Book1.getTitle());
   Book1.setPrice(5.8);
-  System.out.println(Song1.getPrice());   
+  System.out.println(Song1.getPrice());
+  // 1.2.1
+  MediaFile.writeString(Song1.getTitle() + "|" + Song1.getRating());
+  MediaFile.saveAndClose();
+ 
+  
 }
  
 }
