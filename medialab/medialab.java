@@ -41,6 +41,7 @@ class medialab
   System.out.println(Song1.getPrice());
   // 1.2.1
   MediaFile.writeString(Song1.getTitle() + "|" + Song1.getRating());
+  
   MediaFile.saveAndClose();
  
   
