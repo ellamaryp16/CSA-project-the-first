@@ -8,7 +8,7 @@
 class medialab
 {
  private static double avgRating = (10 + 9 + 9)/3;
- private static int numSongs = 1 + 1 + 1;
+ public static int numSongs = 1 + 1 + 1;
  private static double totalCost = 1.0 + 2.33 + 1.0;
  
       static void main ()
@@ -24,6 +24,8 @@ class medialab
   System.out.println(avgRating);
   System.out.println(numSongs);
   System.out.println(totalCost);
+  Song Song2 = new Song ( "Dance. Dance.", 2.33, 9);
+  Song Song3 = new Song ( "bulletproof heart", 1.0, 9);
   //Movie    
   Movie Movie1 = new Movie();
   System.out.println(Movie1);
@@ -43,7 +45,7 @@ class medialab
   MediaFile.writeString(Song1.getTitle() + "|" + Song1.getRating());
   
   MediaFile.saveAndClose();
- 
+  Song[] allSongs  = { Song1, Song2, Song3};
   
 }
 }
