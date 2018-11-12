@@ -9,9 +9,9 @@ public class LoopingMediaLab
 {
     public static void main ()
     {
-        System.out.println(MediaFile.readString());
+     
     for (int i = 0; i< medialab.numSongs; i++) {
-        MediaFile.readString();
+        System.out.println(MediaFile.readString());
     } 
     }
   

@@ -7,11 +7,11 @@
  */
 class medialab
 {
- private static double avgRating = (10 + 9 + 9)/3;
+ public static double avgRating = (10 + 9 + 9)/3;
  public static int numSongs = 1 + 1 + 1;
- private static double totalCost = 1.0 + 2.33 + 1.0;
+ public static double totalCost = 1.0 + 2.33 + 1.0;
  
-      static void main ()
+ public static void main ()
  {
   System.out.println("Welcome to your media library."); 
   //Song
@@ -43,9 +43,8 @@ class medialab
   System.out.println(Song1.getPrice());
   // 1.2.1
   MediaFile.writeString(Song1.getTitle() + "|" + Song1.getRating());
-  
   MediaFile.saveAndClose();
-  Song[] allSongs  = { Song1, Song2, Song3};
+  Song[]allSongs = {Song1, Song2, Song3};
   
 }
 }
