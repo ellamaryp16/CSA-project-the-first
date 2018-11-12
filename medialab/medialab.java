@@ -16,6 +16,8 @@ class medialab
   System.out.println("Welcome to your media library."); 
   //Song
   Song Song1 = new Song();
+  Song Song2 = new Song ( "Dance. Dance.", 2.33, 9);
+  Song Song3 = new Song ( "bulletproof heart", 1.0, 9);
   System.out.println(Song1);
   Song1.setTitle("House of the Rising Sun");
   System.out.println(Song1.getTitle());
@@ -24,8 +26,7 @@ class medialab
   System.out.println(avgRating);
   System.out.println(numSongs);
   System.out.println(totalCost);
-  Song Song2 = new Song ( "Dance. Dance.", 2.33, 9);
-  Song Song3 = new Song ( "bulletproof heart", 1.0, 9);
+  
   //Movie    
   Movie Movie1 = new Movie();
   System.out.println(Movie1);
@@ -43,8 +44,10 @@ class medialab
   System.out.println(Song1.getPrice());
   // 1.2.1
   MediaFile.writeString(Song1.getTitle() + "|" + Song1.getRating());
+  MediaFile.writeString(Song2.getTitle() + "|" + Song2.getRating());
+  MediaFile.writeString(Song3.getTitle() + "|" + Song3.getRating());
   MediaFile.saveAndClose();
-  Song[]allSongs = {Song1, Song2, Song3};
+  
   
 }
 }
