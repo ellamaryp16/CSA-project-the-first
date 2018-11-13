@@ -12,21 +12,20 @@ private int rating;
 private double price;
 private String title;
 private boolean favorite;
-   public Song ()
+   public Song()
    {
-     rating = 10;
-     title="House of the Rising Sun";
-     price = 1.0;
+     rating = 0;
+     title="";
+     price = 0.0;
    }   
    public Song(String title, double price){
-    this.title = "Dance. Dance.";
-    this.price = 2.33;
-    this.rating = 9;
+    this.title = title;
+    this.price = price;
    }
    public Song(String title, double price, int rating){
-    this.title = "bulletproof heart";
-    this.price = 1.0;
-    this.rating = 9; 
+    this.title = title;
+    this.price = price;
+    this.rating = rating; 
    } 
     
 }

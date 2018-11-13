@@ -11,12 +11,11 @@ public abstract class Media
  private int rating;
  private double price;
  private String title;
- private boolean favorite;
   public Media ()
   {
-   this.rating = 0;
-   this.title="Untitled";
-   this.price = 0;
+   this.rating = rating;
+   this.title= title;
+   this.price = price;
   }   
   public String getTitle() 
   {  
