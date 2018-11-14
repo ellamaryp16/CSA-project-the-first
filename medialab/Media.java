@@ -8,15 +8,20 @@
 public abstract class Media
 {
     // instance variables - replace the example below with your own
- private int rating;
- private double price;
- private String title;
-  public Media ()
+ public int rating;
+ public double price;
+ public String title;
+  public Media()
   {
    this.rating = rating;
    this.title= title;
    this.price = price;
   }   
+  public Media(String title, double price, int rating){
+    this.title = title;
+    this.price = price;
+    this.rating= rating;
+    }
   public String getTitle() 
   {  
    return title; 

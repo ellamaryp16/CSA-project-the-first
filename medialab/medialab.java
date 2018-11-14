@@ -13,17 +13,17 @@ class medialab
  
  public static void main ()
  {
-  System.out.println("Welcome to your media library."); 
+  System.out.println("Welcome to your media library!"); 
   //Song
   Song Song1 = new Song("House of the Rising Sun",1.0,10);
   Song Song2 = new Song("Dance. Dance.", 2.33, 9);
   Song Song3 = new Song("bulletproof heart", 1.0, 9);
-  Song allSongs[] = {Song1,Song2,Song3};
-  System.out.println(allSongs);
+
   Song1.setTitle("House of the Rising Sun");
   System.out.println(Song1.getTitle());
   System.out.println(Song2.getTitle());
   Song1.setPrice(1.0);
+  System.out.println(Song1.getRating());
   System.out.println(Song1.getPrice());
   System.out.println("The average rating is " + avgRating);
   System.out.println("The number of songs is " + numSongs);
