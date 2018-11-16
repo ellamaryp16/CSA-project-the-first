@@ -27,12 +27,9 @@ public class Song extends Media
     this.title = title;
     this.price = price;
    }
-   //public Song(String title, double price, int rating){
-    //this.title = title;
-    //this.price = price;
-    //this.rating = rating; 
-   //} 
-    
+public Song(String title){
+    this.title = title;
+}
 }
 
 
