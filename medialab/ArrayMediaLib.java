@@ -31,7 +31,7 @@ public class ArrayMediaLib
     //Change the array
     System.out.println("-BEFORE--");
     for(Song changeSong : topTenSongs) {
-        changeSong = new Song("na na na");
+        changeSong = new Song("test");
         System.out.println(changeSong.getTitle());
     }
     System.out.println("-AFTER--");
